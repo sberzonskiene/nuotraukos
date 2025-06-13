@@ -6,8 +6,9 @@ let HTML1 = '';
 
 for (const item of fotoData) {
     HTML1 += `
+
             <li>
-                <a href="./pic/${item}" target="_blank">
+                <a href="./pic/${item}" target="blank">
                 <img src="./pic/${item}" alt="pic-foto">
                 </a>
             </li>`;
@@ -23,7 +24,7 @@ const HTML = `
         </ul>    
     </main>
     <footer>
-        <p>&copy; 2025-Copywrite</p>
+        <p>&copy;2025 SB</p>
     </footer>`;
 
 document.getElementById('app').insertAdjacentHTML('beforeend', HTML);
